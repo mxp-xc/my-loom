@@ -1,0 +1,7 @@
+- id: test-mcp
+  type: stdio
+  command: echo
+  targets:
+    - codex
+    - claude-code
+

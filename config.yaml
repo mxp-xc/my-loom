@@ -1,0 +1,10 @@
+profile: local
+targets:
+  - claude-code
+  - codex
+projection:
+  strategy: link
+update_check:
+  enabled: true
+  interval: 6h
+
