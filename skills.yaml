@@ -1,4 +1,6 @@
-sources: []
+sources:
+  - url: https://github.com/obra/superpowers.git
+    ref: main
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
@@ -6,3 +8,4 @@ skills:
       - claude-code
       - codex
       - opencode
+
