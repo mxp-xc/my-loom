@@ -1,5 +1,8 @@
 profile: local
-targets: []
+targets:
+  - claude-code
+  - codex
+  - opencode
 projection:
   strategy: link
 update_check:
