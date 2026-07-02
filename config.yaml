@@ -7,4 +7,3 @@ projection:
 update_check:
   enabled: true
   interval: 6h
-
