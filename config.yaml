@@ -8,4 +8,5 @@ projection:
 update_check:
   enabled: true
   interval: 6h
+active_memory: v1
 

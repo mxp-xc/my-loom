@@ -2,5 +2,6 @@
   type: stdio
   command: echo
   targets:
-    - codex
     - claude-code
+    - opencode
+
