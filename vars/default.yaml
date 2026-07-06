@@ -1,1 +1,9 @@
-{}
+name:
+  type: string
+  value: loom
+nv:
+  type: string
+  value: ${name}-${version}
+version:
+  type: string
+  value: 0.0.1
