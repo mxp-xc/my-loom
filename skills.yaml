@@ -4,10 +4,10 @@ sources:
     type: tag
     members:
       - name: executing-plans
-        targets:
-          - codex
-      - name: finishing-a-development-branch
         targets: []
+      - name: finishing-a-development-branch
+        targets:
+          - opencode
       - name: receiving-code-review
         targets:
           - opencode
@@ -15,10 +15,11 @@ sources:
         targets:
           - opencode
       - name: subagent-driven-development
+        targets: []
       - name: systematic-debugging
+        targets: []
       - name: test-driven-development
         targets:
-          - codex
           - opencode
       - name: using-git-worktrees
         targets:
@@ -27,9 +28,9 @@ sources:
         targets:
           - opencode
       - name: verification-before-completion
+        targets: []
       - name: writing-plans
         targets:
-          - codex
           - opencode
       - name: writing-skills
         targets:
@@ -38,6 +39,5 @@ sources:
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
-    targets:
-      - claude-code
-      - opencode
+    targets: []
+
