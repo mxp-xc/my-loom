@@ -1,10 +1,12 @@
 profile: local
-targets: []
+targets:
+  - codex
+  - opencode
 projection:
-  strategy: link
+  strategy: copy
 update_check:
-  enabled: true
+  enabled: false
   interval: 6h
 proxy:
   http: http://127.0.0.1:7890
-  https: http://127.0.0.1:7890
+

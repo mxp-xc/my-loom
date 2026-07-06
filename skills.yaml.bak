@@ -3,10 +3,6 @@ sources:
     ref: main
     members:
       - name: test-driven-development
-        targets:
-          - claude-code
-          - codex
-          - opencode
       - name: using-git-worktrees
       - name: using-superpowers
       - name: verification-before-completion
@@ -14,5 +10,10 @@ sources:
       - name: writing-skills
       - name: brainstorming
     pinned_commit: f268f7c953744036f0fa7e9d4b73535c04e57cb8
-skills: []
-
+skills:
+  - id: test-qa-skill
+    path: ./assets/skills/test-qa-skill
+    targets:
+      - opencode
+      - claude-code
+      - codex
