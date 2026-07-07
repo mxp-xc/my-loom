@@ -1,40 +1,38 @@
 sources:
-  - url: https://github.com/obra/superpowers.git
-    ref: v6.1.1
-    type: tag
+  - url: https://github.com/obra/superpowers
+    ref: v6.1.0
     members:
-      - name: executing-plans
+      - name: brainstorming
         targets:
-          - codex
+          - opencode
+      - name: dispatching-parallel-agents
+        targets: []
+      - name: executing-plans
+        targets: []
       - name: finishing-a-development-branch
         targets: []
       - name: receiving-code-review
-        targets:
-          - opencode
+        targets: []
       - name: requesting-code-review
-        targets:
-          - opencode
+        targets: []
       - name: subagent-driven-development
+        targets: []
       - name: systematic-debugging
+        targets: []
       - name: test-driven-development
+        targets: []
       - name: using-git-worktrees
-        targets:
-          - opencode
+        targets: []
       - name: using-superpowers
-        targets:
-          - opencode
+        targets: []
       - name: verification-before-completion
+        targets: []
       - name: writing-plans
-        targets:
-          - codex
-          - opencode
+        targets: []
       - name: writing-skills
-      - name: brainstorming
-    pinned_commit: f268f7c953744036f0fa7e9d4b73535c04e57cb8
+        targets: []
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
-    targets:
-      - opencode
-      - claude-code
-      - codex
+    targets: []
+
