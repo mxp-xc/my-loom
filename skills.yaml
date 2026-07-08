@@ -3,8 +3,15 @@ sources:
     ref: v6.1.1
     type: tag
     members:
+      - name: brainstorming
+        targets:
+          - opencode
+      - name: dispatching-parallel-agents
+        targets:
+          - opencode
       - name: executing-plans
-        targets: []
+        targets:
+          - opencode
       - name: finishing-a-development-branch
         targets:
           - opencode
@@ -15,9 +22,11 @@ sources:
         targets:
           - opencode
       - name: subagent-driven-development
-        targets: []
+        targets:
+          - opencode
       - name: systematic-debugging
-        targets: []
+        targets:
+          - opencode
       - name: test-driven-development
         targets:
           - opencode
@@ -28,7 +37,8 @@ sources:
         targets:
           - opencode
       - name: verification-before-completion
-        targets: []
+        targets:
+          - opencode
       - name: writing-plans
         targets:
           - opencode
@@ -36,6 +46,84 @@ sources:
         targets:
           - opencode
     pinned_commit: d884ae04edebef577e82ff7c4e143debd0bbec99
+  - url: https://github.com/mattpocock/skills
+    ref: v1.0.1
+    type: tag
+    members:
+      - name: ask-matt
+        targets: []
+      - name: claude-handoff
+        targets: []
+      - name: code-review
+        targets: []
+      - name: codebase-design
+        targets: []
+      - name: design-an-interface
+        targets: []
+      - name: diagnosing-bugs
+        targets: []
+      - name: domain-modeling
+        targets: []
+      - name: edit-article
+        targets: []
+      - name: git-guardrails-claude-code
+        targets: []
+      - name: grill-me
+        targets: []
+      - name: grill-with-docs
+        targets: []
+      - name: grilling
+        targets: []
+      - name: handoff
+        targets: []
+      - name: implement
+        targets: []
+      - name: improve-codebase-architecture
+        targets: []
+      - name: loop-me
+        targets: []
+      - name: migrate-to-shoehorn
+        targets: []
+      - name: obsidian-vault
+        targets: []
+      - name: prototype
+        targets: []
+      - name: qa
+        targets: []
+      - name: request-refactor-plan
+        targets: []
+      - name: resolving-merge-conflicts
+        targets: []
+      - name: scaffold-exercises
+        targets: []
+      - name: setup-matt-pocock-skills
+        targets: []
+      - name: setup-pre-commit
+        targets: []
+      - name: tdd
+        targets: []
+      - name: teach
+        targets: []
+      - name: to-issues
+        targets: []
+      - name: to-prd
+        targets: []
+      - name: triage
+        targets: []
+      - name: ubiquitous-language
+        targets: []
+      - name: wayfinder
+        targets: []
+      - name: wizard
+        targets: []
+      - name: writing-beats
+        targets: []
+      - name: writing-fragments
+        targets: []
+      - name: writing-great-skills
+        targets: []
+      - name: writing-shape
+        targets: []
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill

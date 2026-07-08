@@ -1,0 +1,19 @@
+sources:
+  - url: https://github.com/obra/superpowers.git
+    ref: main
+    members:
+      - name: test-driven-development
+      - name: using-git-worktrees
+      - name: using-superpowers
+      - name: verification-before-completion
+      - name: writing-plans
+      - name: writing-skills
+      - name: brainstorming
+    pinned_commit: f268f7c953744036f0fa7e9d4b73535c04e57cb8
+skills:
+  - id: test-qa-skill
+    path: ./assets/skills/test-qa-skill
+    targets:
+      - opencode
+      - claude-code
+      - codex
