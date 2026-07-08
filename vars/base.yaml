@@ -1,0 +1,4 @@
+test:
+  format: json
+  type: string
+  value: abc

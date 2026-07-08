@@ -3,40 +3,37 @@ sources:
     ref: v6.1.1
     type: tag
     members:
+      - name: brainstorming
+        targets: []
+      - name: dispatching-parallel-agents
+        targets: []
       - name: executing-plans
         targets: []
       - name: finishing-a-development-branch
-        targets:
-          - opencode
+        targets: []
       - name: receiving-code-review
-        targets:
-          - opencode
+        targets: []
       - name: requesting-code-review
-        targets:
-          - opencode
+        targets: []
       - name: subagent-driven-development
         targets: []
       - name: systematic-debugging
         targets: []
       - name: test-driven-development
-        targets:
-          - opencode
+        targets: []
       - name: using-git-worktrees
-        targets:
-          - opencode
+        targets: []
       - name: using-superpowers
-        targets:
-          - opencode
+        targets: []
       - name: verification-before-completion
         targets: []
       - name: writing-plans
-        targets:
-          - opencode
+        targets: []
       - name: writing-skills
-        targets:
-          - opencode
+        targets: []
     pinned_commit: d884ae04edebef577e82ff7c4e143debd0bbec99
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
     targets: []
+
