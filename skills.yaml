@@ -32,6 +32,48 @@ sources:
       - name: writing-skills
         targets: []
     pinned_commit: d884ae04edebef577e82ff7c4e143debd0bbec99
+  - url: https://github.com/mattpocock/skills
+    ref: v1.0.1
+    type: tag
+    members:
+      - name: ask-matt
+        targets: []
+      - name: claude-handoff
+      - name: code-review
+      - name: codebase-design
+      - name: design-an-interface
+      - name: diagnosing-bugs
+      - name: domain-modeling
+      - name: edit-article
+      - name: git-guardrails-claude-code
+      - name: grill-me
+      - name: grill-with-docs
+      - name: grilling
+      - name: handoff
+      - name: implement
+      - name: improve-codebase-architecture
+      - name: loop-me
+      - name: migrate-to-shoehorn
+      - name: obsidian-vault
+      - name: prototype
+      - name: qa
+      - name: request-refactor-plan
+      - name: resolving-merge-conflicts
+      - name: scaffold-exercises
+      - name: setup-matt-pocock-skills
+      - name: setup-pre-commit
+      - name: tdd
+      - name: teach
+      - name: to-issues
+      - name: to-prd
+      - name: triage
+      - name: ubiquitous-language
+      - name: wayfinder
+      - name: wizard
+      - name: writing-beats
+      - name: writing-fragments
+      - name: writing-great-skills
+      - name: writing-shape
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
