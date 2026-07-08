@@ -1,0 +1,4 @@
+memory.rtk:
+  format: markdown
+  type: string
+  value: '@RTK.md'
