@@ -1,7 +1,7 @@
 profile: local
 targets:
-  - codex
   - opencode
+  - claude-code
 projection:
   strategy: copy
 update_check:

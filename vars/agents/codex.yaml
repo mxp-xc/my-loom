@@ -1,2 +1,2 @@
 memory.rtk:
-  value: ${LOOM_CONFIG_DIR}/RTK.md
+  value: ${LOOM_CONFIG_DIR}\RTK.md
