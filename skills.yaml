@@ -124,6 +124,14 @@ sources:
         targets: []
       - name: writing-shape
         targets: []
+  - url: https://github.com/mxp-xc/agents
+    ref: main
+    type: branch
+    members:
+      - name: code-simplifier
+      - name: coordinator
+      - name: frontend-prototype-companion
+      - name: refine
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
