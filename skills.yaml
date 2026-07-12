@@ -10,120 +10,80 @@ sources:
         targets:
           - opencode
       - name: executing-plans
-        targets:
-          - opencode
+        targets: []
       - name: finishing-a-development-branch
-        targets:
-          - opencode
+        targets: []
       - name: receiving-code-review
-        targets:
-          - opencode
+        targets: []
       - name: requesting-code-review
-        targets:
-          - opencode
+        targets: []
       - name: subagent-driven-development
-        targets:
-          - opencode
+        targets: []
       - name: systematic-debugging
-        targets:
-          - opencode
+        targets: []
       - name: test-driven-development
-        targets:
-          - opencode
+        targets: []
       - name: using-git-worktrees
-        targets:
-          - opencode
+        targets: []
       - name: using-superpowers
-        targets:
-          - opencode
+        targets: []
       - name: verification-before-completion
-        targets:
-          - opencode
+        targets: []
       - name: writing-plans
-        targets:
-          - opencode
+        targets: []
       - name: writing-skills
-        targets:
-          - opencode
+        targets: []
     pinned_commit: d884ae04edebef577e82ff7c4e143debd0bbec99
   - url: https://github.com/mattpocock/skills
-    ref: v1.0.1
+    ref: v1.1.0
     type: tag
     members:
-      - name: ask-matt
-        targets: []
-      - name: claude-handoff
-        targets: []
-      - name: code-review
-        targets: []
-      - name: codebase-design
-        targets: []
-      - name: design-an-interface
-        targets: []
-      - name: diagnosing-bugs
-        targets: []
-      - name: domain-modeling
-        targets: []
-      - name: edit-article
-        targets: []
-      - name: git-guardrails-claude-code
-        targets: []
-      - name: grill-me
-        targets: []
-      - name: grill-with-docs
-        targets: []
-      - name: grilling
-        targets: []
-      - name: handoff
-        targets: []
-      - name: implement
-        targets: []
-      - name: improve-codebase-architecture
-        targets: []
-      - name: loop-me
-        targets: []
-      - name: migrate-to-shoehorn
-        targets: []
-      - name: obsidian-vault
-        targets: []
-      - name: prototype
-        targets: []
-      - name: qa
-        targets: []
-      - name: request-refactor-plan
-        targets: []
-      - name: resolving-merge-conflicts
-        targets: []
-      - name: scaffold-exercises
-        targets: []
-      - name: setup-matt-pocock-skills
-        targets: []
-      - name: setup-pre-commit
-        targets: []
-      - name: tdd
-        targets: []
-      - name: teach
-        targets: []
-      - name: to-issues
-        targets: []
-      - name: to-prd
-        targets: []
-      - name: triage
-        targets: []
-      - name: ubiquitous-language
-        targets: []
-      - name: wayfinder
-        targets: []
-      - name: wizard
-        targets: []
-      - name: writing-beats
-        targets: []
-      - name: writing-fragments
-        targets: []
       - name: writing-great-skills
-        targets: []
-      - name: writing-shape
-        targets: []
+        targets:
+          - codex
+      - name: teach
+        targets:
+          - codex
+      - name: improve-codebase-architecture
+        targets:
+          - codex
+      - name: grilling
+        targets:
+          - codex
+      - name: grill-with-docs
+        targets:
+          - codex
+      - name: domain-modeling
+        targets:
+          - codex
+      - name: diagnosing-bugs
+        targets:
+          - codex
+      - name: codebase-design
+        targets:
+          - codex
+    name: mattpocock-skills
+    pinned_commit: d574778f94cf620fcc8ce741584093bc650a61d3
+  - url: https://github.com/mxp-xc/agents
+    ref: main
+    type: branch
+    members:
+      - name: code-simplifier
+        targets:
+          - codex
+      - name: coordinator
+        targets:
+          - codex
+      - name: frontend-prototype-companion
+        targets:
+          - codex
+      - name: refine
+        targets:
+          - codex
+      - name: using-reqable-capture
+        targets:
+          - codex
+    name: mxc-xp
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill

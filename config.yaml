@@ -1,7 +1,5 @@
 profile: local
-targets:
-  - codex
-  - opencode
+targets: []
 projection:
   strategy: copy
 update_check:
