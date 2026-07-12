@@ -86,4 +86,3 @@ skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
     targets: []
-
