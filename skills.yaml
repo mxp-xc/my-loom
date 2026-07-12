@@ -4,11 +4,9 @@ sources:
     type: tag
     members:
       - name: brainstorming
-        targets:
-          - opencode
+        targets: []
       - name: dispatching-parallel-agents
-        targets:
-          - opencode
+        targets: []
       - name: executing-plans
         targets: []
       - name: finishing-a-development-branch
