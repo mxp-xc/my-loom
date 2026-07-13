@@ -3,4 +3,7 @@
   command: echo
   targets:
     - opencode
+- id: mcp-proxy
+  type: http
+  url: http://127.0.0.1:6274/mcp
 

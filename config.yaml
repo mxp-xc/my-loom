@@ -1,7 +1,6 @@
 profile: local
 targets:
-  - opencode
-  - claude-code
+  - codex
 projection:
   strategy: copy
 update_check:
@@ -11,3 +10,4 @@ proxy:
   http: http://127.0.0.1:7890
   https: http://127.0.0.1:7890
 active_memory: v1
+

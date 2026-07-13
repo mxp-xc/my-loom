@@ -81,8 +81,10 @@ sources:
       - name: using-reqable-capture
         targets:
           - codex
-    name: mxc-xp
+    name: mxp-xc
+    pinned_commit: 88e2799067d5d0db060839dd07df1f2a520f96ca
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
     targets: []
+
