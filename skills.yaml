@@ -83,8 +83,32 @@ sources:
           - codex
     name: mxp-xc
     pinned_commit: 88e2799067d5d0db060839dd07df1f2a520f96ca
+  - url: https://gitcode.com/HarnessPlatform/Marketplace.git
+    ref: main
+    name: plm-harness
+    type: branch
+    pinned_commit: be192a0a0979ba18b508cccf7187d7ddd087fcd1
+    members:
+      - name: so-apply
+      - name: so-archive
+      - name: so-change
+      - name: so-code-reviewer
+      - name: so-codecheck
+      - name: so-codewiki-sync
+      - name: so-debug
+        targets:
+          - codex
+      - name: so-design-story
+      - name: so-design-task
+      - name: so-design-test
+      - name: so-validate-design
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
     targets: []
-
+group_order:
+  - local
+  - source:https://github.com/mattpocock/skills
+  - source:https://github.com/mxp-xc/agents
+  - source:https://gitcode.com/HarnessPlatform/Marketplace.git
+  - source:https://github.com/obra/superpowers.git
