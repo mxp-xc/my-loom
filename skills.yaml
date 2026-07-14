@@ -83,7 +83,7 @@ sources:
           - codex
     name: mxp-xc
     pinned_commit: 88e2799067d5d0db060839dd07df1f2a520f96ca
-  - url: https://gitcode.com/HarnessPlatform/Marketplace.git
+  - url: git@gitcode.com:HarnessPlatform/Marketplace.git
     ref: main
     name: plm-harness
     type: branch
@@ -110,5 +110,5 @@ group_order:
   - local
   - source:https://github.com/mattpocock/skills
   - source:https://github.com/mxp-xc/agents
-  - source:https://gitcode.com/HarnessPlatform/Marketplace.git
+  - source:git@gitcode.com:HarnessPlatform/Marketplace.git
   - source:https://github.com/obra/superpowers.git
