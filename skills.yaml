@@ -4,32 +4,46 @@ sources:
     type: tag
     members:
       - name: brainstorming
+        entry: skills/brainstorming/SKILL.md
         targets: []
       - name: dispatching-parallel-agents
+        entry: skills/dispatching-parallel-agents/SKILL.md
         targets: []
       - name: executing-plans
+        entry: skills/executing-plans/SKILL.md
         targets: []
       - name: finishing-a-development-branch
+        entry: skills/finishing-a-development-branch/SKILL.md
         targets: []
       - name: receiving-code-review
+        entry: skills/receiving-code-review/SKILL.md
         targets: []
       - name: requesting-code-review
+        entry: skills/requesting-code-review/SKILL.md
         targets: []
       - name: subagent-driven-development
+        entry: skills/subagent-driven-development/SKILL.md
         targets: []
       - name: systematic-debugging
+        entry: skills/systematic-debugging/SKILL.md
         targets: []
       - name: test-driven-development
+        entry: skills/test-driven-development/SKILL.md
         targets: []
       - name: using-git-worktrees
+        entry: skills/using-git-worktrees/SKILL.md
         targets: []
       - name: using-superpowers
+        entry: skills/using-superpowers/SKILL.md
         targets: []
       - name: verification-before-completion
+        entry: skills/verification-before-completion/SKILL.md
         targets: []
       - name: writing-plans
+        entry: skills/writing-plans/SKILL.md
         targets: []
       - name: writing-skills
+        entry: skills/writing-skills/SKILL.md
         targets: []
     pinned_commit: d884ae04edebef577e82ff7c4e143debd0bbec99
   - url: https://github.com/mattpocock/skills
@@ -37,27 +51,35 @@ sources:
     type: tag
     members:
       - name: writing-great-skills
+        entry: skills/productivity/writing-great-skills/SKILL.md
         targets:
           - codex
       - name: teach
+        entry: skills/productivity/teach/SKILL.md
         targets:
           - codex
       - name: improve-codebase-architecture
+        entry: skills/engineering/improve-codebase-architecture/SKILL.md
         targets:
           - codex
       - name: grilling
+        entry: skills/productivity/grilling/SKILL.md
         targets:
           - codex
       - name: grill-with-docs
+        entry: skills/engineering/grill-with-docs/SKILL.md
         targets:
           - codex
       - name: domain-modeling
+        entry: skills/engineering/domain-modeling/SKILL.md
         targets:
           - codex
       - name: diagnosing-bugs
+        entry: skills/engineering/diagnosing-bugs/SKILL.md
         targets:
           - codex
       - name: codebase-design
+        entry: skills/engineering/codebase-design/SKILL.md
         targets:
           - codex
     name: mattpocock-skills
@@ -67,18 +89,23 @@ sources:
     type: branch
     members:
       - name: code-simplifier
+        entry: skills/code-simplifier/SKILL.md
         targets:
           - codex
       - name: coordinator
+        entry: skills/coordinator/SKILL.md
         targets:
           - codex
       - name: frontend-prototype-companion
+        entry: skills/frontend-prototype-companion/SKILL.md
         targets:
           - codex
       - name: refine
+        entry: skills/refine/SKILL.md
         targets:
           - codex
       - name: using-reqable-capture
+        entry: skills/using-reqable-capture/SKILL.md
         targets:
           - codex
     name: mxp-xc
@@ -90,18 +117,44 @@ sources:
     pinned_commit: be192a0a0979ba18b508cccf7187d7ddd087fcd1
     members:
       - name: so-apply
+        entry: plugins/plm-harness/skills/so-apply/SKILL.md
+        targets: []
       - name: so-archive
+        entry: plugins/plm-harness/skills/so-archive/SKILL.md
+        targets: []
       - name: so-change
+        entry: plugins/plm-harness/skills/so-change/SKILL.md
+        targets: []
       - name: so-code-reviewer
+        entry: plugins/plm-harness/skills/so-code-reviewer/SKILL.md
+        targets: []
       - name: so-codecheck
+        entry: plugins/plm-harness/skills/so-codecheck/SKILL.md
+        targets: []
       - name: so-codewiki-sync
+        entry: plugins/plm-harness/skills/so-codewiki-sync/SKILL.md
+        targets: []
       - name: so-debug
+        entry: plugins/plm-harness/skills/so-debug/SKILL.md
         targets:
           - codex
       - name: so-design-story
+        entry: plugins/plm-harness/skills/so-design-story/SKILL.md
+        targets: []
       - name: so-design-task
+        entry: plugins/plm-harness/skills/so-design-task/SKILL.md
+        targets: []
       - name: so-design-test
+        entry: plugins/plm-harness/skills/so-design-test/SKILL.md
+        targets: []
       - name: so-validate-design
+        entry: plugins/plm-harness/skills/so-validate-design/SKILL.md
+        targets: []
+    resources:
+      include:
+        - path: plugins/plm-harness/skills
+          kind: directory
+      exclude: []
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill

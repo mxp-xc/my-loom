@@ -1,9 +1,14 @@
 - id: test-mcp
   type: stdio
   command: echo
-  targets:
-    - opencode
+  targets: []
 - id: mcp-proxy
   type: http
   url: http://127.0.0.1:6274/mcp
+- id: codegraph
+  type: stdio
+  command: codegraph
+  args:
+    - serve
+    - '--mcp'
 
