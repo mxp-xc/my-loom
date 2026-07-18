@@ -110,51 +110,6 @@ sources:
           - codex
     name: mxp-xc
     pinned_commit: 88e2799067d5d0db060839dd07df1f2a520f96ca
-  - url: git@gitcode.com:HarnessPlatform/Marketplace.git
-    ref: main
-    name: plm-harness
-    type: branch
-    pinned_commit: be192a0a0979ba18b508cccf7187d7ddd087fcd1
-    members:
-      - name: so-apply
-        entry: plugins/plm-harness/skills/so-apply/SKILL.md
-        agents: []
-      - name: so-archive
-        entry: plugins/plm-harness/skills/so-archive/SKILL.md
-        agents: []
-      - name: so-change
-        entry: plugins/plm-harness/skills/so-change/SKILL.md
-        agents: []
-      - name: so-code-reviewer
-        entry: plugins/plm-harness/skills/so-code-reviewer/SKILL.md
-        agents: []
-      - name: so-codecheck
-        entry: plugins/plm-harness/skills/so-codecheck/SKILL.md
-        agents: []
-      - name: so-codewiki-sync
-        entry: plugins/plm-harness/skills/so-codewiki-sync/SKILL.md
-        agents: []
-      - name: so-debug
-        entry: plugins/plm-harness/skills/so-debug/SKILL.md
-        agents:
-          - codex
-      - name: so-design-story
-        entry: plugins/plm-harness/skills/so-design-story/SKILL.md
-        agents: []
-      - name: so-design-task
-        entry: plugins/plm-harness/skills/so-design-task/SKILL.md
-        agents: []
-      - name: so-design-test
-        entry: plugins/plm-harness/skills/so-design-test/SKILL.md
-        agents: []
-      - name: so-validate-design
-        entry: plugins/plm-harness/skills/so-validate-design/SKILL.md
-        agents: []
-    resources:
-      include:
-        - path: plugins/plm-harness/skills
-          kind: directory
-      exclude: []
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
@@ -163,6 +118,5 @@ group_order:
   - local
   - source:https://github.com/mattpocock/skills
   - source:https://github.com/mxp-xc/agents
-  - source:git@gitcode.com:HarnessPlatform/Marketplace.git
   - source:https://github.com/obra/superpowers.git
 
