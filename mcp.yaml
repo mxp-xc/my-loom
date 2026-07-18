@@ -1,7 +1,7 @@
 - id: test-mcp
   type: stdio
   command: echo
-  targets: []
+  agents: []
 - id: mcp-proxy
   type: http
   url: http://127.0.0.1:6274/mcp

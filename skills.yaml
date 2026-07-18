@@ -5,46 +5,46 @@ sources:
     members:
       - name: brainstorming
         entry: skills/brainstorming/SKILL.md
-        targets: []
+        agents: []
       - name: dispatching-parallel-agents
         entry: skills/dispatching-parallel-agents/SKILL.md
-        targets: []
+        agents: []
       - name: executing-plans
         entry: skills/executing-plans/SKILL.md
-        targets: []
+        agents: []
       - name: finishing-a-development-branch
         entry: skills/finishing-a-development-branch/SKILL.md
-        targets: []
+        agents: []
       - name: receiving-code-review
         entry: skills/receiving-code-review/SKILL.md
-        targets: []
+        agents: []
       - name: requesting-code-review
         entry: skills/requesting-code-review/SKILL.md
-        targets: []
+        agents: []
       - name: subagent-driven-development
         entry: skills/subagent-driven-development/SKILL.md
-        targets: []
+        agents: []
       - name: systematic-debugging
         entry: skills/systematic-debugging/SKILL.md
-        targets: []
+        agents: []
       - name: test-driven-development
         entry: skills/test-driven-development/SKILL.md
-        targets: []
+        agents: []
       - name: using-git-worktrees
         entry: skills/using-git-worktrees/SKILL.md
-        targets: []
+        agents: []
       - name: using-superpowers
         entry: skills/using-superpowers/SKILL.md
-        targets: []
+        agents: []
       - name: verification-before-completion
         entry: skills/verification-before-completion/SKILL.md
-        targets: []
+        agents: []
       - name: writing-plans
         entry: skills/writing-plans/SKILL.md
-        targets: []
+        agents: []
       - name: writing-skills
         entry: skills/writing-skills/SKILL.md
-        targets: []
+        agents: []
     pinned_commit: d884ae04edebef577e82ff7c4e143debd0bbec99
   - url: https://github.com/mattpocock/skills
     ref: v1.1.0
@@ -52,35 +52,35 @@ sources:
     members:
       - name: writing-great-skills
         entry: skills/productivity/writing-great-skills/SKILL.md
-        targets:
+        agents:
           - codex
       - name: teach
         entry: skills/productivity/teach/SKILL.md
-        targets:
+        agents:
           - codex
       - name: improve-codebase-architecture
         entry: skills/engineering/improve-codebase-architecture/SKILL.md
-        targets:
+        agents:
           - codex
       - name: grilling
         entry: skills/productivity/grilling/SKILL.md
-        targets:
+        agents:
           - codex
       - name: grill-with-docs
         entry: skills/engineering/grill-with-docs/SKILL.md
-        targets:
+        agents:
           - codex
       - name: domain-modeling
         entry: skills/engineering/domain-modeling/SKILL.md
-        targets:
+        agents:
           - codex
       - name: diagnosing-bugs
         entry: skills/engineering/diagnosing-bugs/SKILL.md
-        targets:
+        agents:
           - codex
       - name: codebase-design
         entry: skills/engineering/codebase-design/SKILL.md
-        targets:
+        agents:
           - codex
     name: mattpocock-skills
     pinned_commit: d574778f94cf620fcc8ce741584093bc650a61d3
@@ -90,23 +90,23 @@ sources:
     members:
       - name: code-simplifier
         entry: skills/code-simplifier/SKILL.md
-        targets:
+        agents:
           - codex
       - name: coordinator
         entry: skills/coordinator/SKILL.md
-        targets:
+        agents:
           - codex
       - name: frontend-prototype-companion
         entry: skills/frontend-prototype-companion/SKILL.md
-        targets:
+        agents:
           - codex
       - name: refine
         entry: skills/refine/SKILL.md
-        targets:
+        agents:
           - codex
       - name: using-reqable-capture
         entry: skills/using-reqable-capture/SKILL.md
-        targets:
+        agents:
           - codex
     name: mxp-xc
     pinned_commit: 88e2799067d5d0db060839dd07df1f2a520f96ca
@@ -118,38 +118,38 @@ sources:
     members:
       - name: so-apply
         entry: plugins/plm-harness/skills/so-apply/SKILL.md
-        targets: []
+        agents: []
       - name: so-archive
         entry: plugins/plm-harness/skills/so-archive/SKILL.md
-        targets: []
+        agents: []
       - name: so-change
         entry: plugins/plm-harness/skills/so-change/SKILL.md
-        targets: []
+        agents: []
       - name: so-code-reviewer
         entry: plugins/plm-harness/skills/so-code-reviewer/SKILL.md
-        targets: []
+        agents: []
       - name: so-codecheck
         entry: plugins/plm-harness/skills/so-codecheck/SKILL.md
-        targets: []
+        agents: []
       - name: so-codewiki-sync
         entry: plugins/plm-harness/skills/so-codewiki-sync/SKILL.md
-        targets: []
+        agents: []
       - name: so-debug
         entry: plugins/plm-harness/skills/so-debug/SKILL.md
-        targets:
+        agents:
           - codex
       - name: so-design-story
         entry: plugins/plm-harness/skills/so-design-story/SKILL.md
-        targets: []
+        agents: []
       - name: so-design-task
         entry: plugins/plm-harness/skills/so-design-task/SKILL.md
-        targets: []
+        agents: []
       - name: so-design-test
         entry: plugins/plm-harness/skills/so-design-test/SKILL.md
-        targets: []
+        agents: []
       - name: so-validate-design
         entry: plugins/plm-harness/skills/so-validate-design/SKILL.md
-        targets: []
+        agents: []
     resources:
       include:
         - path: plugins/plm-harness/skills
@@ -158,7 +158,7 @@ sources:
 skills:
   - id: test-qa-skill
     path: ./assets/skills/test-qa-skill
-    targets: []
+    agents: []
 group_order:
   - local
   - source:https://github.com/mattpocock/skills
